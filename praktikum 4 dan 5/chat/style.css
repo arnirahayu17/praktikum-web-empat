@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chatbox{
+    position: relative;
+    width: 450px;
+    height: 600px;
+    border: 2px solid #000;
+    background-color: papayawhip;
+}
+
+.chatbox ul {
+    list-style: none;
+    padding: 12px;
+}
+
+.chatbox input,
+.chatbox button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 0;
+    border: 1px solid;
+}
+
+.chatbox input {
+    left: 0;
+    width: 80%;
+}
+
+.chatbox button {
+    width: 20%;
